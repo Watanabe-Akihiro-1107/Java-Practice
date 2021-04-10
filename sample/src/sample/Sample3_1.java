@@ -19,5 +19,7 @@ public class Sample3_1 {
 		System.out.println(f);
 		System.out.println(g);
 		System.out.println(h);
+		System.out.println(a);
+		
 	}
 }
