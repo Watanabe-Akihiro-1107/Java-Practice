@@ -8,12 +8,11 @@ public class HowOldAreYou {
 	public static void main(String[] args){
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	try {
-		String line;
 		//一人目
 		System.out.println("一人目の名前を入力してください");
 		String name1 = reader.readLine();
 		System.out.println(name1+"さんの年齢を入力してください");
-		line = reader.readLine();
+		String line = reader.readLine();
 		int age1 = Integer.parseInt(line);
 		//二人目
 		System.out.println("二人目の名前を入力してください");
